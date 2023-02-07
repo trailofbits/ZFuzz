@@ -1,0 +1,11 @@
+{
+    "<start>": [["<run_on_sentence>"]],
+    "<run_on_sentence>": [["<sentence>"], ["<sentence>", "<WS>", "<conjunction>", "<WS>", "<run_on_sentence>", "<WS>"]],
+    "<sentence>": [["<subject>", "<WS>", "<verb>", "<WS>", "<fruit_list>"]],
+    "<fruit_list>": [["<fruit>"], ["<fruit>", "<WS>", "<conjunction>", "<WS>", "<fruit_list>"]],
+    "<subject>": [["I"], ["we"], ["you"]],
+    "<verb>": [["eat"], ["throw"], ["stomp on"], ["demolish"]],
+    "<fruit>": [["apples"], ["bananas"], ["pears"], ["watermelons"]],
+    "<conjunction>": [["and"], ["or"]],
+    "<WS>": [[" "]]
+}
